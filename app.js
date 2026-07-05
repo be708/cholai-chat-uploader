@@ -2,12 +2,13 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/fireba
 import { getFirestore, collection, addDoc } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBmLJZ4dof1DIPLxgJUrkLAIUkuC_EVRw",
-  authDomain: "cholai-chat-png.firebaseapp.com",
-  projectId: "cholai-chat-png",
-  storageBucket: "cholai-chat-png.firebasestorage.com",
-  messagingSenderId: "138640328969",
-  appId: "1:386403289869:web:e893ffe786446c42e6be44"
+ const firebaseConfig = {
+      apiKey: "AIzaSyB...",
+      authDomain: "cholai-chat-png.firebaseapp.com",
+      projectId: "cholai-chat-png",
+      storageBucket: "cholai-chat-png.appspot.com",
+      messagingSenderId: "384...",
+      appId: "1:384..."
 };
 
 const app = initializeApp(firebaseConfig);
